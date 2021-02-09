@@ -1,10 +1,12 @@
 {
-  "name": "ejs-challenge",
+  "name": "blog-with-database",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js js,ejs"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,8 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
